@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;* El campo solo permite carateres numéricos
+
+* El campo cuando se deje vacío su borde cambiará al color rojo&quot;</description>
+   <name>Llenar Campo Interlocutor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32a2eb3d-151f-415c-a7c3-ef5706fdadb0</testCaseGuid>
+   <variable>
+      <defaultValue>'Interlocutor'</defaultValue>
+      <description>Texto en Label antes de hacer Click</description>
+      <id>eb10f5a1-e5c8-4185-9408-4ecad0984ff2</id>
+      <masked>false</masked>
+      <name>label_Interlocutor_I</name>
+   </variable>
+   <variable>
+      <defaultValue>'400000001'</defaultValue>
+      <description>Insertar string en campo interlocutor</description>
+      <id>fe4072fd-9683-4444-882d-12526b2029ae</id>
+      <masked>false</masked>
+      <name>insert_Interlocutor</name>
+   </variable>
+</TestCaseEntity>

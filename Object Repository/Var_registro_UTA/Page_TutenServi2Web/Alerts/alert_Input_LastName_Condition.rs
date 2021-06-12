@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_Input_LastName_Condition</name>
+   <tag></tag>
+   <elementGuidId>9d567bc2-6b7d-43ff-b69d-9b6436ea4e7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-error-1&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-error-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

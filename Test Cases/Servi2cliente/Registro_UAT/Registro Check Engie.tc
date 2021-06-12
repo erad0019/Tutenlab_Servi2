@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificación del Check ¿Eres cliente Engie?
+* Al activar el check se deben desplegar los campos &quot;Interlocutor&quot; y &quot;Nº de cuenta&quot;
+* Al desactivar el check se deben ocultar los campos &quot;Interlocutor&quot; y &quot;Nº de cuenta&quot;</description>
+   <name>Registro Check Engie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0ede2c0-8dff-4c8f-86a0-87e7ad494716</testCaseGuid>
+</TestCaseEntity>

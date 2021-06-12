@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_Input_Correo_Confirm_III</name>
+   <tag></tag>
+   <elementGuidId>30181e66-7a51-4430-ab25-065c6e512489</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/div/app-login/div/div[3]/div/mat-tab-group/div/mat-tab-body[2]/div/app-register-component/form/div/div[4]/mat-form-field/div/div[2]/div/mat-error[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-register-component/form/div/div[4]/mat-form-field/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-register-component/form/div/div[4]/mat-form-field/div/div[2]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-if</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+</WebElementEntity>

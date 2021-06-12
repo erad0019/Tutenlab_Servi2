@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Ambos Campos permiten caracteres alfanuméricos
+* Si cualquiera de los campos se dejan vacíos sus bordes se muestran de color rojo y se despliega una alerta con el texto &quot;El campo es requerido&quot;</description>
+   <name>Llenar Campos Nombre y Apellido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>315f548a-3ca8-48df-80af-7cb7c6227a7d</testCaseGuid>
+</TestCaseEntity>

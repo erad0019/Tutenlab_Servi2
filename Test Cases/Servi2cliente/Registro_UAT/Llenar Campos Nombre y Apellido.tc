@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Ambos Campos permiten caracteres alfanuméricos
+* Si cualquiera de los campos se dejan vacíos sus bordes se muestran de color rojo y se despliega una alerta con el texto &quot;El campo es requerido&quot;</description>
+   <name>Llenar Campos Nombre y Apellido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af75f78f-0c86-4bd7-b56f-ad693cb22639</testCaseGuid>
+   <variable>
+      <defaultValue>'Nombres'</defaultValue>
+      <description>Texto en Label antes de hacer Click</description>
+      <id>9d822f1f-29ff-45ca-98ed-5ad3e677e24b</id>
+      <masked>false</masked>
+      <name>label_Nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apellidos'</defaultValue>
+      <description>Texto en Label antes de hacer Click</description>
+      <id>2f0fdc63-e220-4291-9223-803e1a7b7d18</id>
+      <masked>false</masked>
+      <name>label_Apellido</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nombre01'</defaultValue>
+      <description>Insertar string en campo Nombre</description>
+      <id>9062a5ba-2228-41f2-8cd9-fff6026e95aa</id>
+      <masked>false</masked>
+      <name>insert_Nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apellido01'</defaultValue>
+      <description>Insertar string en campo Apellido</description>
+      <id>13150452-9948-4e48-98d7-7f5128776676</id>
+      <masked>false</masked>
+      <name>insert_Apellido</name>
+   </variable>
+</TestCaseEntity>

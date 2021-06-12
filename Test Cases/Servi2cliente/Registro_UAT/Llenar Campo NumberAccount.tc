@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* El campo solo permite carateres numéricos
+* El campo cuando se deje vacío su borde cambiará al color rojo</description>
+   <name>Llenar Campo NumberAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>788c0db0-25b9-4b7c-8cc6-61087ad966ef</testCaseGuid>
+   <variable>
+      <defaultValue>'N° de cuenta'</defaultValue>
+      <description>Texto en Label antes de hacer Click</description>
+      <id>eb10f5a1-e5c8-4185-9408-4ecad0984ff2</id>
+      <masked>false</masked>
+      <name>label_AccountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'5000000001'</defaultValue>
+      <description>Insertar string en campo NumberAccount</description>
+      <id>fe4072fd-9683-4444-882d-12526b2029ae</id>
+      <masked>false</masked>
+      <name>insert_NumberAccount</name>
+   </variable>
+</TestCaseEntity>

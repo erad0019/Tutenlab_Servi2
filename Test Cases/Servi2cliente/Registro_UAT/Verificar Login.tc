@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verificar Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f62cc05f-1c5e-4cff-8a7e-57245c29cf1f</testCaseGuid>
+   <variable>
+      <defaultValue>'CorreoPrueba'</defaultValue>
+      <description></description>
+      <id>218d60bc-26c9-4582-8e9e-14591d82404a</id>
+      <masked>false</masked>
+      <name>Correo_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Prueba1'</defaultValue>
+      <description></description>
+      <id>6e0749d0-936b-4d79-b81c-c0b7820e6221</id>
+      <masked>false</masked>
+      <name>Password_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ser un email válido'</defaultValue>
+      <description></description>
+      <id>25c989ba-2701-4a12-abfe-4c668c84d052</id>
+      <masked>false</masked>
+      <name>Alerta_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Correo@Prueba'</defaultValue>
+      <description></description>
+      <id>f8023264-85d9-4686-aace-c05e0e231934</id>
+      <masked>false</masked>
+      <name>Correo_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'El email especificado no es válido'</defaultValue>
+      <description></description>
+      <id>0331885c-82ae-4c54-b5d7-44f1776f4c9f</id>
+      <masked>false</masked>
+      <name>Alerta_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'victoriasosa37@yopmail.com'</defaultValue>
+      <description></description>
+      <id>f48e6cd1-e878-4bf0-af67-1bb8d6a7cc1c</id>
+      <masked>false</masked>
+      <name>Correo_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Usuario o contraseña incorrecta'</defaultValue>
+      <description></description>
+      <id>ed78f908-6de6-4218-a55c-6686662dd9da</id>
+      <masked>false</masked>
+      <name>Alerta_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pruebas1.'</defaultValue>
+      <description></description>
+      <id>965b8356-e6b8-46f1-943e-a3b579e6cd53</id>
+      <masked>false</masked>
+      <name>Password_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Solicita y gestiona tus asistencias desde un solo lugar.'</defaultValue>
+      <description></description>
+      <id>f2c5dc70-ba0b-4931-968b-013365536f11</id>
+      <masked>false</masked>
+      <name>Alerta_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'alexisdavid@bylup.com'</defaultValue>
+      <description></description>
+      <id>401cc5f1-649d-4604-989b-6e9fabc538d0</id>
+      <masked>false</masked>
+      <name>Correo_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Chilo-01'</defaultValue>
+      <description></description>
+      <id>380ba6d4-b62c-4577-860d-3e47f1a9ef6d</id>
+      <masked>false</masked>
+      <name>Password_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Recuérdame'</defaultValue>
+      <description></description>
+      <id>bfc049b5-e203-4a66-ac4d-176d701bc392</id>
+      <masked>false</masked>
+      <name>Alerta_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aún no eres cliente SERVI2, contrata tu plan.'</defaultValue>
+      <description></description>
+      <id>d0b664a8-3fd6-49c8-8677-bace89044791</id>
+      <masked>false</masked>
+      <name>Alerta_6</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verificar Olvide Clave</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7af0695-460e-42b8-b53d-fc19579933d7</testCaseGuid>
+   <variable>
+      <defaultValue>'¿Olvidaste tú contraseña?'</defaultValue>
+      <description></description>
+      <id>460b391c-2760-4889-b729-72db935a1849</id>
+      <masked>false</masked>
+      <name>texto_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://uatservi2.tutenlabs.dev/clientes/forgetpass'</defaultValue>
+      <description></description>
+      <id>4321a31d-c482-47db-8bd0-4b051062ea0b</id>
+      <masked>false</masked>
+      <name>url_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Restablecer contraseña'</defaultValue>
+      <description></description>
+      <id>c8aaf5ff-2852-4b5e-9575-fef78f170275</id>
+      <masked>false</masked>
+      <name>texto_Banner_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cancelar'</defaultValue>
+      <description></description>
+      <id>2579ff31-2a58-4cc2-8abd-1c3b875d0935</id>
+      <masked>false</masked>
+      <name>boton_Cancelar</name>
+   </variable>
+   <variable>
+      <defaultValue>'Enviar Correo'</defaultValue>
+      <description></description>
+      <id>af121bf3-acf2-4231-a07e-c156a072bfb3</id>
+      <masked>false</masked>
+      <name>boton_Enviar_Correo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Correo electrónico'</defaultValue>
+      <description></description>
+      <id>50e05358-a708-4624-bbcf-4bc1ab92d09e</id>
+      <masked>false</masked>
+      <name>label_Enviar_Correo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Prueba'</defaultValue>
+      <description></description>
+      <id>3e03f5bc-cf8d-40d4-b5c7-bd95874604ca</id>
+      <masked>false</masked>
+      <name>insert_Correo_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://uatservi2.tutenlabs.dev/clientes/home'</defaultValue>
+      <description></description>
+      <id>5405be56-041b-424f-8754-2ce77f7a94b7</id>
+      <masked>false</masked>
+      <name>url_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ser un email válido'</defaultValue>
+      <description></description>
+      <id>830c3dde-1c9d-4d8d-88e5-447134f6a1a3</id>
+      <masked>false</masked>
+      <name>alerta_Correo_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Prueba@prueba'</defaultValue>
+      <description></description>
+      <id>51a788cb-a752-4ac5-8373-e055e3820da6</id>
+      <masked>false</masked>
+      <name>insert_Correo_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ingresar un email válido'</defaultValue>
+      <description></description>
+      <id>b832de0d-125d-462b-996a-e4ac701cc8cb</id>
+      <masked>false</masked>
+      <name>alerta_Correo_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'victoriasosa37@yopmail.com'</defaultValue>
+      <description></description>
+      <id>c86a8dde-a9ee-484d-9b85-2dea0f94998e</id>
+      <masked>false</masked>
+      <name>insert_Correo_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Se ha enviado un correo a: victoriasosa37@yopmail.com con los pasos para reestablecer la contraseña'</defaultValue>
+      <description></description>
+      <id>4d1a784c-4319-48d5-a11b-4f522965225e</id>
+      <masked>false</masked>
+      <name>alerta_Correo_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'victoriasosa37'</defaultValue>
+      <description></description>
+      <id>594b0ef1-dbbb-47a8-90de-2e639576a77d</id>
+      <masked>false</masked>
+      <name>id_correo</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Help_Outline_NumberAccount</name>
+   <tag></tag>
+   <elementGuidId>f4fcf0ac-5691-47b9-8465-971668926948</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mat-tab-content-0-1&quot;]/div/app-register-component/form/engie-details/div/div/div/div/div[2]/mat-form-field/div/div[1]/div[4]/i
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

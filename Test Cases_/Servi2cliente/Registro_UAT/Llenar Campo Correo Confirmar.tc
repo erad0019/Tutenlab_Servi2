@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Permite caracteres alfanuméricos
+* Si el campo se deja vacío sus bordes se muestran de color rojo y se despliega una alerta con el texto &quot;El campo es requerido&quot; y otra con el texto &quot;Los correos no coinciden&quot;
+* Este campo cumple la condiciones de un campo tipo correo electrónico, ejemplo: prueba@prueba.com - prueba@prueba2.mx.com, en caso de escribir un correo de forma errada se muestra una alerta con el texto &quot;Debe ser un email válido&quot;
+* El correo debe ser igual al ingresado en el campo &quot;Correo electrónico&quot;</description>
+   <name>Llenar Campo Correo Confirmar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>009e2bf9-4816-47f2-aafe-5c0676a64d6c</testCaseGuid>
+   <variable>
+      <defaultValue>'Confirmar correo electrónico'</defaultValue>
+      <description></description>
+      <id>914c9826-c10a-427f-85fe-5295745d1089</id>
+      <masked>false</masked>
+      <name>label_Correo_Confirm</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01'</defaultValue>
+      <description></description>
+      <id>c15e0484-1bd2-4c8a-9288-5544d3a00b87</id>
+      <masked>false</masked>
+      <name>insert_Correo_Confirm_I</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01@prueba'</defaultValue>
+      <description></description>
+      <id>0f8792f9-7522-438d-a7c9-4dd7ee10e7cc</id>
+      <masked>false</masked>
+      <name>insert_Correo_Confirm_II</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01@prueba.mx.com'</defaultValue>
+      <description></description>
+      <id>066f9b89-3f66-4b50-b0e2-efdc86089463</id>
+      <masked>false</masked>
+      <name>insert_Correo_Confirm_III</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ser un email válido'</defaultValue>
+      <description></description>
+      <id>6c18a0f7-d719-4241-9f1e-04859ce72158</id>
+      <masked>false</masked>
+      <name>alert_Correo_Confirm_I</name>
+   </variable>
+   <variable>
+      <defaultValue>'Los correos no coinciden'</defaultValue>
+      <description></description>
+      <id>ca577ceb-9c87-450d-bd9d-174dd847e353</id>
+      <masked>false</masked>
+      <name>alert_Correo_Confirm_II</name>
+   </variable>
+   <variable>
+      <defaultValue>'El campo es requerido'</defaultValue>
+      <description></description>
+      <id>8ce02d9e-bc7b-4cab-bdf6-06048cd6c3a5</id>
+      <masked>false</masked>
+      <name>alert_Correo_Confirm_III</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ser un email válido\r\nLos correos no coinciden'</defaultValue>
+      <description></description>
+      <id>8b7fc0d9-76de-4a66-a4e0-acea8946943d</id>
+      <masked>false</masked>
+      <name>alert_Correo_Confirm_I_a</name>
+   </variable>
+</TestCaseEntity>

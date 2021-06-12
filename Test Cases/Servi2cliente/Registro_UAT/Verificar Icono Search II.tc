@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>*Si el Nº de cuenta ya ha sido registrado, se mostrará una alerta con el siguiente texto &quot;Esta cuenta contrato ya esta siendo usada&quot;
+* Si ambos campos se llenan con datos correctos se mostrará una alerta con el texto &quot;Exito - Cuenta engie agregada&quot; y antes del campo &quot;Interlocutor&quot; se mostrará un botón &quot;X&quot; que permite borrar los datos en los campos &quot;Interlocutor&quot; y &quot;Nº de cuenta&quot;, debajo del campo &quot;Nº de cuenta &quot; se mostrará un botón &quot;+&quot; que permite agregar un nuevo Interlocutor y Nº de cuenta y se repite el cilo de condiciones según el uso de los campos &quot;Interlocutor&quot; y &quot;Nº de cuenta&quot;
+
+Nota: El número de cuenta se agrega omitiendo los dos primeros ceros al inicio, ejemplo: Nº de cuenta &quot;005100100967&quot; - sin los dos ceros: &quot;5100100967&quot;</description>
+   <name>Verificar Icono Search II</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abb569e8-8906-4085-8cd0-cd3e5bc8dc04</testCaseGuid>
+</TestCaseEntity>

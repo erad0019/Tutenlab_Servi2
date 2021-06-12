@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Posicionar cursor encima del ícono informativo en el campo &quot;Interlocutor&quot;
+Mostrar la imagen con la información de como obtener el número de interlocutor
+
+Posicionar cursor encima del ícono informativo en el campo &quot;Nº de cuenta&quot;
+Mostrar la imagen con la información de como obtener el número de cuenta contrato</description>
+   <name>Verificar Icono Interlocutor y NumberAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>360f27b7-eda3-433d-b6fb-a2e660fced99</testCaseGuid>
+</TestCaseEntity>

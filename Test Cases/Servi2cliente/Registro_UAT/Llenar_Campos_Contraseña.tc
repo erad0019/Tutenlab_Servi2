@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Campo &quot;Contraseña&quot;
+* Si el campo se deja vacío sus bordes se muestran de color rojo y se despliega una alerta con el texto &quot;El campo es requerido&quot; y otra con el texto &quot;Los correos no coinciden&quot;
+
+Botón o icono con forma de &quot;Ojo tachado&quot; y &quot;Ojo no tachado&quot; en el campo &quot;Contraseña&quot;
+
+* Este campo cumple la condiciones de un campo tipo correo electrónico, ejemplo: prueba@prueba.com - prueba@prueba2.mx.com, en caso de escribir un correo de forma errada se muestra una alerta con el texto &quot;Debe ser un email válido&quot;
+
+Campo &quot;Confirmar contraseña&quot;
+* El correo debe ser igual al ingresado en el campo &quot;Correo electrónico&quot;
+
+Botón o icono con forma de &quot;Ojo tachado&quot; y &quot;Ojo no tachado&quot; en el campo &quot;Confirmar contraseña&quot;
+
+* Cuando el ojo este tachado, la contraseña ingresada en el campo se debe mostrar cifrada
+*Cuando el ojo no este tachado, la contraseña ingresada en el campo se debe mostrar no cifrada</description>
+   <name>Llenar_Campos_Contraseña</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a48af5bb-feba-47d4-9278-327be55ceedb</testCaseGuid>
+</TestCaseEntity>

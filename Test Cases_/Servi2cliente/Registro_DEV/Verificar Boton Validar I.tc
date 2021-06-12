@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Si los campos &quot;Clave de cliente&quot; y &quot;Cuenta contrato&quot; se encuentran vacíos, se mostrará una alerta debajo del campo &quot; Clave de cliente &quot; con el texto &quot;Por favor introduzca los datos solicitados para proceder a la validación&quot;
+* Si el campo &quot;Clave de cliente&quot; se encuentra vacío y el campo &quot;Cuenta contrato&quot; está lleno con valores correctos, se mostrará una alerta debajo del campo &quot; Clave de cliente &quot; con el texto &quot;Por favor introduzca los datos solicitados para proceder a la validación&quot;
+* Si el campo &quot;Clave de cliente&quot; está lleno con valores correctos y el campo &quot;Cuenta contrato&quot; se encuentra vacío, se mostrará una alerta debajo del campo &quot; Clave de cliente &quot; con el texto &quot;Por favor introduzca los datos solicitados para proceder a la validación&quot;
+* Si ambos campos se llenan con datos incorrectos, en la esquina superior derecha se mostrará una alerta de error con el texto “No se encontró cuenta engie”</description>
+   <name>Verificar Boton Validar I</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbf7efbb-e76a-44ac-a175-aea4160e5df3</testCaseGuid>
+</TestCaseEntity>

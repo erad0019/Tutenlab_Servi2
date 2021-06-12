@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Permite caracteres alfanuméricos
+* Si el campo se deja vacío sus bordes se muestran de color rojo y se despliega una alerta con el texto &quot;El campo es requerido&quot;
+* Este campo cumple la condiciones de un campo tipo correo electrónico, ejemplo: prueba@prueba.com - prueba@prueba2.mx.com, en caso de escribir un correo de forma errada se muestra una alerta con el texto &quot;Debe ser un email válido&quot;</description>
+   <name>Llenar Campo Correo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d09511a-24c4-4cfd-9424-0bc64e59f168</testCaseGuid>
+   <variable>
+      <defaultValue>'Correo electrónico'</defaultValue>
+      <description>Texto en Label antes de hacer Click</description>
+      <id>20d8156b-3152-4a15-b9c4-1796578c5dcf</id>
+      <masked>false</masked>
+      <name>label_Correo</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01'</defaultValue>
+      <description>Insertar correo sin @</description>
+      <id>fabbed41-91ff-4bde-8e2d-056b09c21841</id>
+      <masked>false</masked>
+      <name>insert_Correo_I</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01@prueba'</defaultValue>
+      <description>Insertar correo sin .com</description>
+      <id>9e8db4fd-4751-4335-90a8-c7f229b180f5</id>
+      <masked>false</masked>
+      <name>insert_Correo_II</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01@prueba.mx'</defaultValue>
+      <description>Insertar correo de pais sin .com</description>
+      <id>544b9bd7-0616-4786-b9d4-3c95171cf1a5</id>
+      <masked>false</masked>
+      <name>insert_Correo_III</name>
+   </variable>
+   <variable>
+      <defaultValue>'prueba01@prueba.mx.com'</defaultValue>
+      <description>Insertar correo de pais correctamente</description>
+      <id>a4452c7a-92c0-469f-bb99-d2a5e41bf7a8</id>
+      <masked>false</masked>
+      <name>insert_Correo_IV</name>
+   </variable>
+   <variable>
+      <defaultValue>'El campo es requerido'</defaultValue>
+      <description>Alerta de campo vacio</description>
+      <id>79ac3bd7-38c3-4a41-b86d-dd827a799be2</id>
+      <masked>false</masked>
+      <name>alert_Correo_I</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe ser un email válido'</defaultValue>
+      <description>Alerta de formato errado en el campo correo</description>
+      <id>0fc018cf-ac27-4cc6-a1bf-8d2abb899c69</id>
+      <masked>false</masked>
+      <name>alert_Correo_II</name>
+   </variable>
+</TestCaseEntity>

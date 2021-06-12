@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>* Si los campos &quot;Interlocutor&quot; y &quot;Nº de cuenta&quot; se encuentran vacíos, se mostrará una alerta debajo del campo &quot;Nº de cuenta&quot; con el texto &quot;Debe especificar todos los valores de la clase&quot;
+* Si el campo &quot;Interlocutor&quot; se encuentra vacío y el campo &quot;Nº de cuenta&quot; esta lleno con valores correctos, se mostrará una alerta debajo del campo &quot;Nº de cuenta&quot; con el texto &quot;Debe especificar todos los valores de la clase&quot;
+* Si el campo &quot;Nº de cuenta&quot; se encuentra vacío y el campo &quot;Interlocutor&quot; esta lleno con valores correctos, se mostrará una alerta debajo del campo &quot;Nº de cuenta&quot; con el texto &quot;No se encontró cuenta engie&quot;</description>
+   <name>Verificar Icono Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ec39fe3-7459-4dae-bb9a-b7c067583147</testCaseGuid>
+</TestCaseEntity>
