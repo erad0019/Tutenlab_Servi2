@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;change-password-error-new-password-required&quot;]</value>
+         <value>//*[@id=&quot;change-password-error-new-password-required&quot;]/small</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

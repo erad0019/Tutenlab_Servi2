@@ -84,38 +84,47 @@ changePass_Label_Confirm_Pass = WebUI.getText(findTestObject('Object Repository/
 
 WebUI.verifyEqual(changePass_Label_Confirm_Pass, 'Confirmar contraseña')
 
-/*
+
 // Campos vacios
+// El botón restablecer contraseña permanecera inactivo hasta llenar con campos validos 
 
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
-	'1234')
-
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
-	'')
-
-changePass_Alerta_Clave = WebUI.getText(findTestObject('null'))
+	'1')
 
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
-	'1234')
+	'1')
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
-	'')
+WebUI.sendKeys(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.sendKeys(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'), Keys.chord(Keys.BACK_SPACE))
+
+changePass_Alerta_Clave = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Pass_Invalida'))
+
+WebUI.verifyEqual(changePass_Alerta_Clave, 'El campo es requerido')
 
 changePass_Alerta_Confirm_Clave = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Confirm_Pass_Invalida'))
 
-// Insertar contraseña básica, solo numeros, verificar alertas
+WebUI.verifyEqual(changePass_Alerta_Confirm_Clave, 'El campo es requerido')
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'), 
-    '1234')
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
 
-changePass_Alerta_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Pass_Invalida'))
+// Insertar contraseñas básicas y distintas, verificar alertas
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
+	'1234')
+
+changePass_Alerta_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Pass_InvalidaII'))
+
+WebUI.verifyEqual(changePass_Alerta_Clave_II, 'Debe tener al menos 6 caracteres de largo, 1 mayúscula, 1 minúscula, 1 numero, 1 carácter especial ( @ . - _ *) y no debe poseer espacios')
 
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'), 
-    '1234')
+    '12345')
 
-changePass_Alerta_Confirm_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Confirm_Pass_Invalida'))
+changePass_Alerta_Confirm_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Confirm_Pass_InvalidaII'))
 
-*/
+WebUI.verifyEqual(changePass_Alerta_Confirm_Clave_II, 'La contraseña no coincide')
+
+// Insertar datos validos
 
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
 	'Prueba1.')
@@ -123,4 +132,16 @@ WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
 	'Prueba1.')
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
+
 WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
+
+home_SuccessPass = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_Home_Sucess_Change_Pass'))
+
+WebUI.verifyEqual(home_SuccessPass, '¡Hemos restablecido tu nueva contraseña con éxito!')
+
+Url_SuccessPass = WebUI.getUrl()
+
+WebUI.verifyEqual(Url_SuccessPass, 'https://uatservi2.tutenlabs.dev/clientes/home')
+
+WebUI.closeBrowser()

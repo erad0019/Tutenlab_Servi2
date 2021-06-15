@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert_ChangePass_Confirm_Pass_Invalida</name>
+   <name>alert_ChangePass_Confirm_Pass_InvalidaII</name>
    <tag></tag>
-   <elementGuidId>3601fc44-a60f-4d99-97e1-4937af9f86d9</elementGuidId>
+   <elementGuidId>0de7f522-ac38-4486-99c1-cf284650d5da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;change-password-error-confirmPassword-required&quot;]/small</value>
+         <value>//*[@id=&quot;change-password-error-confirmPassword-missmatch&quot;]/small</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
