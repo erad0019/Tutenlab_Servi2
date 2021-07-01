@@ -103,4 +103,116 @@
       <masked>false</masked>
       <name>id_correo</name>
    </variable>
+   <variable>
+      <defaultValue>'Equipo SERVI2'</defaultValue>
+      <description></description>
+      <id>970d7550-fc2c-4b60-a0c0-68f9674b76c2</id>
+      <masked>false</masked>
+      <name>correo_Titulo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cambio de contraseña'</defaultValue>
+      <description></description>
+      <id>717a3c94-fb8d-4b98-862a-2a49c8694bac</id>
+      <masked>false</masked>
+      <name>correo_Asunto</name>
+   </variable>
+   <variable>
+      <defaultValue>'Para restablecer su contraseña por favor haga clic en el botón que se encuentra a continuación, en caso contrario, ignore este correo.'</defaultValue>
+      <description></description>
+      <id>1a0d5b64-1201-4779-b494-380d94109d58</id>
+      <masked>false</masked>
+      <name>correo_Pasos</name>
+   </variable>
+   <variable>
+      <defaultValue>'Restablecer contraseña'</defaultValue>
+      <description></description>
+      <id>a1b2226f-b864-4884-87b1-b884f368eccc</id>
+      <masked>false</masked>
+      <name>correo_Boton_Restablecer</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://uatservi2.tutenlabs.dev/clientes/cambiar-contrasena'</defaultValue>
+      <description></description>
+      <id>b7468c06-7f99-4645-ae63-38070f81d853</id>
+      <masked>false</masked>
+      <name>url_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Restablecer contraseña'</defaultValue>
+      <description></description>
+      <id>eafbd46a-b19c-43f0-8e03-37b1f2429773</id>
+      <masked>false</masked>
+      <name>ventana_Restablecer_Titulo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ingresa tu nueva contraseña.'</defaultValue>
+      <description></description>
+      <id>415ceabe-76fc-4a16-9202-3119bcd82e3f</id>
+      <masked>false</masked>
+      <name>ventana_Restablecer_Subtitulo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contraseña'</defaultValue>
+      <description></description>
+      <id>793a1ccc-756d-4a19-84c3-1dc93da92497</id>
+      <masked>false</masked>
+      <name>restablecer_Insertar_Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'Confirmar contraseña'</defaultValue>
+      <description></description>
+      <id>c013ea95-9322-480b-8481-725da02cb7f6</id>
+      <masked>false</masked>
+      <name>restablecer_Confirmar_Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'El campo es requerido'</defaultValue>
+      <description></description>
+      <id>8573b1e5-4546-4a91-b97e-8841f7847df6</id>
+      <masked>false</masked>
+      <name>insertar_Pass_Alerta_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'El campo es requerido'</defaultValue>
+      <description></description>
+      <id>a8b35ad3-fa88-4ebc-b368-d5e6cba62d50</id>
+      <masked>false</masked>
+      <name>confirmar_Pass_Alerta_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Debe tener al menos 6 caracteres de largo, 1 mayúscula, 1 minúscula, 1 numero, 1 carácter especial ( @ . - _ *) y no debe poseer espacios'</defaultValue>
+      <description></description>
+      <id>93ef471a-1591-456c-8d8a-62d216d31f41</id>
+      <masked>false</masked>
+      <name>insertar_Pass_Alerta_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'La contraseña no coincide'</defaultValue>
+      <description></description>
+      <id>7e111608-c2f1-44c7-a6bb-9a719cc3ff2a</id>
+      <masked>false</masked>
+      <name>confirmar_Pass_Alerta_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Prueba1.'</defaultValue>
+      <description></description>
+      <id>fdf0cfea-161e-4e6f-ba72-af2930e46bb0</id>
+      <masked>false</masked>
+      <name>new_Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'¡Hemos restablecido tu nueva contraseña con éxito!'</defaultValue>
+      <description></description>
+      <id>1dc97570-2842-4cae-8c1b-6340e17c14a1</id>
+      <masked>false</masked>
+      <name>alerta_Cambio_Exitoso</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://uatservi2.tutenlabs.dev/clientes/home'</defaultValue>
+      <description></description>
+      <id>4d9e6717-bed3-47cc-9cea-914c63712f2a</id>
+      <masked>false</masked>
+      <name>url_4</name>
+   </variable>
 </TestCaseEntity>

@@ -103,8 +103,7 @@ alert_email_send = WebUI.getText(findTestObject('Object Repository/Var_registro_
 
 WebUI.verifyEqual(alert_email_send, alerta_Correo_3)
 
-// Prueba 7: Cambiar a vista correo, verificar textos 
-
+// Cambiar a vista correo 
 
 WebUI.navigateToUrl('https://yopmail.com/en/')
 
@@ -112,5 +111,115 @@ WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/In
 
 WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Buttons/button_Login'))
 
+// Prueba 7: Comprobar Titulo, asunto y contenido del correo
+
+email_title = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Span/span_Equipo_SERVI2'))
+
+WebUI.verifyEqual(email_title, correo_Titulo)
+
+email_asunto = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Div/div_Email_Cambio_Contrasea'))
+
+WebUI.verifyEqual(email_asunto, correo_Asunto)
+
 WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Span/span_Equipo_SERVI2'))
 
+email_Pasos = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Span/span_Email_Pasos'))
+
+WebUI.verifyEqual(email_Pasos, correo_Pasos)
+
+email_Button = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Buttons/button_Restablecer_Contrasea'))
+
+WebUI.verifyEqual(email_Button, correo_Boton_Restablecer)
+
+WebUI.executeJavaScript('window.open();', [])
+
+currentWindow = WebUI.getWindowIndex()
+
+WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_YOPmail/Buttons/button_Restablecer_Contrasea'))
+
+WebUI.closeWindowIndex(0)
+
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+// Prueba 8: Redirección a la Pagina Cambiar Contraseña, comprobar Labels
+
+url_ChangePass = WebUI.getUrl()
+
+WebUI.verifyEqual(url_ChangePass, url_3)
+
+changePass_Titulo = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Labels/label_ChangePass_Tittle'))
+
+WebUI.verifyEqual(changePass_Titulo, ventana_Restablecer_Titulo)
+
+changePass_Subtitulo = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Labels/label_ChangePass_H3_Ingresar_Pass'))
+
+WebUI.verifyEqual(changePass_Subtitulo, ventana_Restablecer_Subtitulo)
+
+changeePass_Label_Pass = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_ChangePass_Contrasea'))
+
+WebUI.verifyEqual(changeePass_Label_Pass, restablecer_Insertar_Pass)
+
+changePass_Label_Confirm_Pass = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_ChangePass_Confirmar_Contrasea'))
+
+WebUI.verifyEqual(changePass_Label_Confirm_Pass, restablecer_Confirmar_Pass)
+
+// Prueba 9: Alerta de campos vacios
+// El botón restablecer contraseña permanecera inactivo hasta llenar con campos validos
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
+	'1')
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
+	'1')
+
+WebUI.sendKeys(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.sendKeys(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'), Keys.chord(Keys.BACK_SPACE))
+
+changePass_Alerta_Clave = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Pass_Invalida'))
+
+WebUI.verifyEqual(changePass_Alerta_Clave, insertar_Pass_Alerta_1)
+
+changePass_Alerta_Confirm_Clave = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Confirm_Pass_Invalida'))
+
+WebUI.verifyEqual(changePass_Alerta_Confirm_Clave, confirmar_Pass_Alerta_1)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
+
+// Prueba 10: Insertar contraseñas básicas y distintas, verificar alertas
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
+	'1234')
+
+changePass_Alerta_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Pass_InvalidaII'))
+
+WebUI.verifyEqual(changePass_Alerta_Clave_II, insertar_Pass_Alerta_2)
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
+	'12345')
+
+changePass_Alerta_Confirm_Clave_II = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Alerts/alert_ChangePass_Confirm_Pass_InvalidaII'))
+
+WebUI.verifyEqual(changePass_Alerta_Confirm_Clave_II, confirmar_Pass_Alerta_2)
+
+// Prueba 11: Insertar datos validos
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Insert_New_Pass'),
+	new_Pass)
+
+WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_ChangePass_Confirm_New_Pass'),
+	new_Pass)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
+
+WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_ChangePass_Restablecer_Contrasea'))
+
+home_SuccessPass = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_Home_Sucess_Change_Pass'))
+
+WebUI.verifyEqual(home_SuccessPass, alerta_Cambio_Exitoso)
+
+Url_SuccessPass = WebUI.getUrl()
+
+WebUI.verifyEqual(Url_SuccessPass, url_4)
+
+WebUI.closeBrowser()
