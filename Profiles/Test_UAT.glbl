@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Test_UAT</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatservi2.tutenlabs.dev/clientes/home'</initValue>
+      <name>url_UAT_Home</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejandra Ortiz, Cliente Engie</description>
+      <initValue>'400090325'</initValue>
+      <name>user_Cliente_Engie_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejandra Ortiz, Cliente Engie</description>
+      <initValue>'005000088791'</initValue>
+      <name>user_Cuenta_Contrato_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejadra Ortiz, Cuenta Engie</description>
+      <initValue>'ANTONIO'</initValue>
+      <name>user_Name_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejadra Ortiz, Cuenta Engie</description>
+      <initValue>'ORTIZ  MONTAÑO'</initValue>
+      <name>user_LastName_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejadra Ortiz, Cuenta Engie</description>
+      <initValue>'5253786775'</initValue>
+      <name>user_PhoneNumber_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Usuario Alejadra Ortiz, Cuenta Engie</description>
+      <initValue>'caballero_aguila2005@hotmail.com'</initValue>
+      <name>user_Email_I</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Enlace para realizar el registro de usuario en UAT</description>
+      <initValue>'https://uatservi2.tutenlabs.dev/clientes/register'</initValue>
+      <name>url_UAT_Register</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
