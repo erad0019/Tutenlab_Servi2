@@ -47,7 +47,7 @@ input_Login_Password = WebUI.getAttribute(findTestObject('Object Repository/Var_
 // Prueba 7: Campos Email y Password con valores correctos, usuario cliente Servi2, Check Recuérdame inactivo
 // Prueba 8: Campos Email y Password con valores correctos, usuario cliente Servi2, Check Recuérdame activo
 
-// Verificar campos del Overlay Login 
+// Verificar campos del Overlay Login
 
 test_Login_Email_Empty = WebUI.verifyEqual(input_Login_Email, "", FailureHandling.OPTIONAL)
 
