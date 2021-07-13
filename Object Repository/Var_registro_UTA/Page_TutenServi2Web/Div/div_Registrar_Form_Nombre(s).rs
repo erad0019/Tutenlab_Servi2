@@ -6,15 +6,19 @@
    <elementGuidId>6d80cd11-11cf-4dc0-b380-b46dd9034668</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>form.ng-star-inserted.ng-dirty.ng-touched.ng-invalid > section.p-grid.p-col-12 > div.p-col-12.p-sm-6.p-md-4</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Nombre(s)' or . = 'Nombre(s)')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar otra cuenta'])[1]/following::div[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.ng-star-inserted.ng-dirty.ng-touched.ng-invalid > section.p-grid.p-col-12 > div.p-col-12.p-sm-6.p-md-4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

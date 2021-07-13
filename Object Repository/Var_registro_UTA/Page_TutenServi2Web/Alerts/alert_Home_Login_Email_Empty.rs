@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert_Home_Login_Email_Invalido</name>
+   <name>alert_Home_Login_Email_Empty</name>
    <tag></tag>
-   <elementGuidId>e43c4916-903d-4250-b31f-4fa340891755</elementGuidId>
+   <elementGuidId>29145934-b3eb-4117-9483-debb73bf478a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;login-error-email-invalid-pattern&quot;]/small</value>
+         <value>//div[@id='login-error-email-required']/small</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Debe ser un email válido' or . = 'Debe ser un email válido')]</value>
+         <value>id(&quot;login-error-email-required&quot;)/small[1][count(. | //*[(text() = 'El campo es requerido' or . = 'El campo es requerido')]) = count(//*[(text() = 'El campo es requerido' or . = 'El campo es requerido')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,21 +32,21 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Debe ser un email válido</value>
+      <value>El campo es requerido</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-error-email-invalid-pattern&quot;)/small[1]</value>
+      <value>id(&quot;login-error-email-required&quot;)/small[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login-error-email-invalid-pattern']/small</value>
+      <value>//div[@id='login-error-email-required']/small</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Debe ser un email válido']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='El campo es requerido']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

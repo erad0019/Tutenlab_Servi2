@@ -25,35 +25,27 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_Home_Registro'))
 
-// Prueba 9: Verificar campos de contraseña
+// Prueba 10: Verificar Placeholder en campos del formulario de registro
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_Registrar_Form_Registrarme'))
-/*
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Nombre'), "Nombre")
+registrar_Form_Name = WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_Registrar_Form_Nombre(s)'))
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Apellido'), "Apellido")
+registrar_Form_Name_Placeholder = WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Nombre'), "placeholder")
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_PhoneNumber'), "5212345678")
+WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_Registrar_Form_Apellido(s)'))
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Email'), "correo@gmail.com")
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Apellido'), "placeholder")
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_ConfirmEmail'), "correo@gmail.com")
-*/
+WebUI.getText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Div/div_Registrar_Form_PhoneNumber'))
 
-WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Checks/check_Registrar_Body_Cliente_Engie'))
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_PhoneNumber'), "placeholder")
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Cuenta_Contrato'), GlobalVariable.user_Cuenta_Contrato_I)
+//WebUI.getText()
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Cliente_Engie'), GlobalVariable.user_Cliente_Engie_I)
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Email'), "placeholder")
 
-WebUI.click(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_Registrar_Form_Validar_Datos'))
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_ConfirmEmail'), "placeholder")
 
-WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Password'), "Chilo-01")
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_Password'), "placeholder")
 
-WebUI.setText(findTestObject('Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_ConfirmPassword'), "Chilo-01")
+WebUI.getAttribute(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Registrar_Form_ConfirmPassword'), "placeholder")
 
-WebUI.click(findTestObject('Var_registro_UTA/Page_TutenServi2Web/Checks/check_Registrar_Form_TermsAndConditions'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Buttons/button_Registrar_Form_Registrarme'))
-
-//WebUI.closeBrowser()

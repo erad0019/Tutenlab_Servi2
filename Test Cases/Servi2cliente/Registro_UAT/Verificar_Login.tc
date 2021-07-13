@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verificar_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2711b73-31aa-459b-94a3-d42a148c4f55</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7649527d-95d8-453c-8a06-ca3816fb83e5</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac61e208-183d-468a-8904-3b0cacfa2125</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbcf0776-43cc-457e-9e4a-9272268bc2e5</id>
+      <masked>false</masked>
+      <name>alert_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5388180-166d-40cd-8454-dc490792a565</id>
+      <masked>false</masked>
+      <name>alert_Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cc784f14-3506-4b52-b4ed-c28a393c8399</id>
+      <masked>false</masked>
+      <name>alert_PopUp</name>
+   </variable>
+</TestCaseEntity>

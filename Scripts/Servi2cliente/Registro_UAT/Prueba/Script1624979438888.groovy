@@ -19,5 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://uatservi2.tutenlabs.dev/clientes/home')
+
+WebUI.click(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/button_Login'))
+
+WebUI.setText(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/input_Login_login-user-email'), '')
+
+WebUI.click(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/div_El campo es requerido'))
+
+WebUI.doubleClick(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/div_El campo es requerido'))
+
+WebUI.click(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/small_El campo es requerido'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/input_El campo es requerido_login-user-password'), 
+    '9NLz+4tGZcQ=')
+
+WebUI.click(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/div_El campo es requerido_1'))
+
+WebUI.click(findTestObject('Object Repository/Pruebas/Page_TutenServi2Web/small_El campo es requerido'))
+
 WebUI.closeBrowser()
 

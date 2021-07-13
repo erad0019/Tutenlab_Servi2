@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Registrar_Form_Telfono</name>
+   <name>div_Registrar_Form_PhoneNumber</name>
    <tag></tag>
    <elementGuidId>5ab7f7b0-ff57-4e1b-8c8a-f8d64f668fcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Apellido(s)'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

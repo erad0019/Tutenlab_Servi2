@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Home_Login_Email</name>
+   <name>input_Login_login-user-email</name>
    <tag></tag>
-   <elementGuidId>643afb44-e750-4226-b9a6-ac90cb74c157</elementGuidId>
+   <elementGuidId>86cb83b1-98c8-478e-b488-201099aae1fd</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='login-user-email']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#login-user-email</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'login-user-email' and @type = 'email']</value>
+         <key>XPATH</key>
+         <value>//input[@id='login-user-email']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-servi2 input-servi2-required ng-invalid ng-touched ng-dirty</value>
+      <value>input-servi2 input-servi2-required ng-untouched ng-invalid ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

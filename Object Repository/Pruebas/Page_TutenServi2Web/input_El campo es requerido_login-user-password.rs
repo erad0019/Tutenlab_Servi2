@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Home_Login_Email</name>
+   <name>input_El campo es requerido_login-user-password</name>
    <tag></tag>
-   <elementGuidId>643afb44-e750-4226-b9a6-ac90cb74c157</elementGuidId>
+   <elementGuidId>0b7a414a-8558-4578-ae5e-4de8d22a0522</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='login-user-email']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#login-user-email</value>
+         <value>#login-user-password</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'login-user-email' and @type = 'email']</value>
+         <key>XPATH</key>
+         <value>//input[@id='login-user-password']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,62 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-servi2 input-servi2-required ng-invalid ng-touched ng-dirty</value>
+      <value>input-servi2 input-servi2-required ng-untouched ng-dirty ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>user</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-user-email</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
+      <value>login-user-password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>user</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
-      <value>user</value>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-user-email&quot;)</value>
+      <value>id(&quot;login-user-password&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-user-email']</value>
+      <value>//input[@id='login-user-password']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[2]/span/input</value>
    </webElementXpaths>
 </WebElementEntity>

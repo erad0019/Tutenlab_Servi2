@@ -10,6 +10,16 @@
       <name>url_UAT_Home</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>Enlace para realizar el registro de usuario en UAT</description>
+      <initValue>'https://uatservi2.tutenlabs.dev/clientes/register'</initValue>
+      <name>url_UAT_Register</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatservi2.tutenlabs.dev/clientes/dashboard/resumen'</initValue>
+      <name>url_UAT_Resumen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>Usuario Alejandra Ortiz, Cliente Engie</description>
       <initValue>'400090325'</initValue>
       <name>user_Cliente_Engie_I</name>
@@ -38,10 +48,5 @@
       <description>Usuario Alejadra Ortiz, Cuenta Engie</description>
       <initValue>'caballero_aguila2005@hotmail.com'</initValue>
       <name>user_Email_I</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Enlace para realizar el registro de usuario en UAT</description>
-      <initValue>'https://uatservi2.tutenlabs.dev/clientes/register'</initValue>
-      <name>url_UAT_Register</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

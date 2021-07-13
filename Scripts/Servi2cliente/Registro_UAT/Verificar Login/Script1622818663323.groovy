@@ -83,7 +83,7 @@ alert_Wrong_Values = WebUI.getText(findTestObject('Object Repository/Var_registr
 
 WebUI.verifyEqual(alert_Wrong_Values, Alerta_3)
 
-// Prueba 7: Campos con valores correctos, usuario cliente Servi2
+// Prueba 7: Campos Email y Password  con valores correctos, usuario cliente Servi2
 // Check Recuérdame inactivo, cerrar y volver a abrir la pagina
 
 WebUI.setText(findTestObject('Object Repository/Var_registro_UTA/Page_TutenServi2Web/Inputs/input_Home_Login_Email'), Correo_3)
